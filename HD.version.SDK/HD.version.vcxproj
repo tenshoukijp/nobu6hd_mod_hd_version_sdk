@@ -1,0 +1,501 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{101BB14D-11FB-4884-B32C-6E73F96AE8E7}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>TSHDmod</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0.10240.0</WindowsTargetPlatformVersion>
+    <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
+    <ProjectName>HD.version</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+    <CLRSupport>true</CLRSupport>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+    <CLRSupport>true</CLRSupport>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_USRDLL;TSHDMOD_EXPORTS;_VERSION_CHANGE_;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalOptions>/Zp1 %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ModuleDefinitionFile>HD.version.def</ModuleDefinitionFile>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>_DEBUG;_WINDOWS;_USRDLL;TSHDMOD_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ModuleDefinitionFile>module.def</ModuleDefinitionFile>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;_USRDLL;HDMOD_EXPORTS;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <StructMemberAlignment>1Byte</StructMemberAlignment>
+      <WholeProgramOptimization>false</WholeProgramOptimization>
+      <StringPooling>false</StringPooling>
+      <AdditionalOptions>/Zp1 /MP %(AdditionalOptions)</AdditionalOptions>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <DisableSpecificWarnings>4819;4793;4091;4691;</DisableSpecificWarnings>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>No</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <ModuleDefinitionFile>HD.version.def</ModuleDefinitionFile>
+      <OutputFile>$(OutDir)$(TargetName)$(TargetExt)</OutputFile>
+      <AdditionalOptions>/IGNORE:4070 %(AdditionalOptions)</AdditionalOptions>
+      <LinkTimeCodeGeneration>Default</LinkTimeCodeGeneration>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>NDEBUG;_WINDOWS;_USRDLL;TSHDMOD_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <ModuleDefinitionFile>module.def</ModuleDefinitionFile>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="2DDirectString.cpp" />
+    <ClCompile Include="2DPosition.cpp" />
+    <ClCompile Include="3DPosition.cpp" />
+    <ClCompile Include="95版の桶狭間.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Arabia2Kanji.cpp" />
+    <ClCompile Include="AssemblyInfo.cpp" />
+    <ClCompile Include="CastleConnectEdge.cpp" />
+    <ClCompile Include="CheckHeapInfo.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="CheckProcessInfo.cpp" />
+    <ClCompile Include="Dijkstra.cpp" />
+    <ClCompile Include="DijkstraCastle.cpp" />
+    <ClCompile Include="Dijkstra_draw.cpp" />
+    <ClCompile Include="Dijkstra_io.cpp" />
+    <ClCompile Include="Dijkstra_node.cpp" />
+    <ClCompile Include="DllExportFuncs.cpp" />
+    <ClCompile Include="DoSoundPlay.cpp" />
+    <ClCompile Include="●BGMCallTable.cpp" />
+    <ClCompile Include="●DoImageDialog.cpp" />
+    <ClCompile Include="●DoMessageDialog.cpp" />
+    <ClCompile Include="●DoFade.cpp" />
+    <ClCompile Include="●DoCameraMove.cpp" />
+    <ClCompile Include="GameDataStructKahou.cpp" />
+    <ClCompile Include="GameDataStructSceanrio.cpp" />
+    <ClCompile Include="HD版の桶狭間.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="●DoBGMPlay.cpp" />
+    <ClCompile Include="GameDataStructBushouRelation.cpp" />
+    <ClCompile Include="●DoOkCancelDIalog.cpp" />
+    <ClCompile Include="●GameDataStruct.cpp" />
+    <ClCompile Include="GameDataStructBattle.cpp" />
+    <ClCompile Include="GameDataStructBattleTurn.cpp" />
+    <ClCompile Include="GameDataStructBgm.cpp" />
+    <ClCompile Include="GameDataStructBushou.cpp" />
+    <ClCompile Include="GameDataStructCastle.cpp" />
+    <ClCompile Include="GameDataStructDaimyo.cpp" />
+    <ClCompile Include="GameDataStructDoumei.cpp" />
+    <ClCompile Include="GameDataStructGundan.cpp" />
+    <ClCompile Include="GameDataStructKani.cpp" />
+    <ClCompile Include="GameDataStructMovie.cpp" />
+    <ClCompile Include="GameDataStructPlayer.cpp" />
+    <ClCompile Include="GameDataStructYakusyoku.cpp" />
+    <ClCompile Include="GameDataStructYear.cpp" />
+    <ClCompile Include="GeometryMath.cpp" />
+    <ClCompile Include="GetWarekiFromYMD.cpp" />
+    <ClCompile Include="GlobalVariable.cpp" />
+    <ClCompile Include="GameDataStructBattleHexRoleCollision.cpp" />
+    <ClCompile Include="●OnBGMCallFunc_01.cpp" />
+    <ClCompile Include="●OnBGMCallFunc_02.cpp" />
+    <ClCompile Include="●OnBGMCallFunc_03.cpp" />
+    <ClCompile Include="●OnBGMCallFunc_04.cpp" />
+    <ClCompile Include="●OnBGMCallFunc_05.cpp" />
+    <ClCompile Include="●OnBGMCallFunc_06.cpp" />
+    <ClCompile Include="●OnBGMCallFunc_07.cpp" />
+    <ClCompile Include="●OnBGMCallFunc_08.cpp" />
+    <ClCompile Include="●OnBGMCallFunc_09.cpp" />
+    <ClCompile Include="●OnBGMCallFunc_10.cpp" />
+    <ClCompile Include="●OnBGMCallFunc_11.cpp" />
+    <ClCompile Include="●OnBGMCallFunc_12.cpp" />
+    <ClCompile Include="●OnBGMCallFunc_13.cpp" />
+    <ClCompile Include="●OnBGMCallFunc_14.cpp" />
+    <ClCompile Include="●OnBGMCallFunc_15.cpp" />
+    <ClCompile Include="●OnBGMCallFunc_16.cpp" />
+    <ClCompile Include="●OnBGMCallFunc_17.cpp" />
+    <ClCompile Include="●OnBGMCallFunc_18.cpp" />
+    <ClCompile Include="●OnBGMCallFunc_19.cpp" />
+    <ClCompile Include="●OnBGMCallFunc_20.cpp" />
+    <ClCompile Include="●OnBGMCallFunc_21.cpp" />
+    <ClCompile Include="●OnBGMCallFunc_22.cpp" />
+    <ClCompile Include="●OnBGMCallFunc_23.cpp" />
+    <ClCompile Include="●OnBGMCallFunc_24.cpp" />
+    <ClCompile Include="●OnBGMCallFunc_25.cpp" />
+    <ClCompile Include="●OnBGMCallFunc_26.cpp" />
+    <ClCompile Include="●OnBGMCallFunc_27.cpp" />
+    <ClCompile Include="●OnBGMCallFunc_28.cpp" />
+    <ClCompile Include="●OnBGMCallFunc_29.cpp" />
+    <ClCompile Include="●OnBGMCallFunc_30.cpp" />
+    <ClCompile Include="●OnBGMCallFunc_31.cpp" />
+    <ClCompile Include="●OnBGMCallFunc_32.cpp" />
+    <ClCompile Include="●OnBGMCallFunc_33.cpp" />
+    <ClCompile Include="●OnBGMCallFunc_34.cpp" />
+    <ClCompile Include="●OnBGMCallFunc_35.cpp" />
+    <ClCompile Include="●OnBGMCallFunc_36.cpp" />
+    <ClCompile Include="●OnBGMCallFunc_37.cpp" />
+    <ClCompile Include="●OnBGMCallFunc_38.cpp" />
+    <ClCompile Include="●OnBGMCallFunc_39.cpp" />
+    <ClCompile Include="●OnBGMCallFunc_40.cpp" />
+    <ClCompile Include="●OnBGMCallFunc_41.cpp" />
+    <ClCompile Include="●OnBGMCallFunc_42.cpp" />
+    <ClCompile Include="●OnBGMCallFunc_43.cpp" />
+    <ClCompile Include="●OnBGMCallFunc_44.cpp" />
+    <ClCompile Include="●OnBGMCallFunc_45.cpp" />
+    <ClCompile Include="●OnBGMCallFunc_46.cpp" />
+    <ClCompile Include="●OnBGMCallFunc_47.cpp" />
+    <ClCompile Include="●OnBGMCallFunc_48.cpp" />
+    <ClCompile Include="●OnBGMCallFunc_49.cpp" />
+    <ClCompile Include="●OnBGMCallFunc_50.cpp" />
+    <ClCompile Include="●OnBGMCallFunc_51.cpp" />
+    <ClCompile Include="●OnBGMCallFunc_52.cpp" />
+    <ClCompile Include="●OnBGMCallFunc_53.cpp" />
+    <ClCompile Include="●OnBGMCallFunc_54.cpp" />
+    <ClCompile Include="●OnBGMCallFunc_55.cpp" />
+    <ClCompile Include="●OnBGMCallFunc_56.cpp" />
+    <ClCompile Include="●OnBGMCallFunc_57.cpp" />
+    <ClCompile Include="●OnBGMCallFunc_58.cpp" />
+    <ClCompile Include="●OnBGMCallFunc_59.cpp" />
+    <ClCompile Include="●OnBGMCallFunc_60.cpp" />
+    <ClCompile Include="●OnBGMCallFunc_61.cpp" />
+    <ClCompile Include="●OnBGMCallFunc_62.cpp" />
+    <ClCompile Include="●OnChangeFieldWarTurn.cpp" />
+    <ClCompile Include="●OnChangeFieldWarTurnInit.cpp" />
+    <ClCompile Include="▲_CommentOtherFileName.cpp" />
+    <ClCompile Include="ManagedProcess.h" />
+    <ClCompile Include="ManagedString.cpp" />
+    <ClCompile Include="MessageComment3.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="MessageComment4.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="MessageComment5.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="MessgaeComment1.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="●OnBattleClear.cpp" />
+    <ClCompile Include="●OnBattleStart.cpp" />
+    <ClCompile Include="●OnBGMNumberRequested.cpp" />
+    <ClCompile Include="●OnCastleWarStart01.cpp" />
+    <ClCompile Include="●OnChangeGundanTurn.cpp" />
+    <ClCompile Include="●OnCreateFileA12.cpp" />
+    <ClCompile Include="●OnCreateFileA10.cpp" />
+    <ClCompile Include="●OnCreateFileA08.cpp" />
+    <ClCompile Include="●OnCreateFileA03.cpp" />
+    <ClCompile Include="●OnCreateFileA01.cpp" />
+    <ClCompile Include="●OnCreateFileA02.cpp" />
+    <ClCompile Include="●OnCreateFileA04.cpp" />
+    <ClCompile Include="●OnCreateFileA05.cpp" />
+    <ClCompile Include="●OnCreateFileA06.cpp" />
+    <ClCompile Include="●OnCreateFileA07.cpp" />
+    <ClCompile Include="●OnCreateFileA09.cpp" />
+    <ClCompile Include="●OnCreateFileA11.cpp" />
+    <ClCompile Include="●OnFieldWarStart01.cpp" />
+    <ClCompile Include="●OnFieldWarStart02.cpp" />
+    <ClCompile Include="●OnFieldWarStart03.cpp" />
+    <ClCompile Include="OnFileRequest.cpp" />
+    <ClCompile Include="●OnChangeGundanTurnUndef.cpp" />
+    <ClCompile Include="●OnHoryoShogu.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="●OnMOVIENumberRequested.cpp" />
+    <ClCompile Include="OnSelectingScenario.cpp" />
+    <ClCompile Include="●OnWarScreenEnd.cpp" />
+    <ClCompile Include="▲_CommentOnWriteFukidashiMessage.cpp" />
+    <ClCompile Include="●OnWriteFukidashiMessage01.cpp" />
+    <ClCompile Include="OutputDebugStream.cpp" />
+    <ClCompile Include="temp.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="tmath.cpp" />
+    <ClCompile Include="Todouhuken.cpp" />
+    <ClCompile Include="WriteAsmJumperAndReturn.cpp" />
+    <ClCompile Include="ユーザークラス.cpp" />
+    <ClCompile Include="噴出メッセージ.cpp" />
+    <ClCompile Include="戦争.cpp" />
+    <ClCompile Include="戦争_ターン.cpp" />
+    <ClCompile Include="戦争_ヘックス.cpp" />
+    <ClCompile Include="戦略_ターン.cpp" />
+    <ClCompile Include="デバッグ出力.cpp" />
+    <ClCompile Include="ダイアログ.cpp" />
+    <ClCompile Include="天翔記クラス.cpp" />
+    <ClCompile Include="効果音.cpp" />
+    <ClCompile Include="国.cpp" />
+    <ClCompile Include="城.cpp" />
+    <ClCompile Include="城位置.cpp" />
+    <ClCompile Include="大名.cpp" />
+    <ClCompile Include="官位.cpp" />
+    <ClCompile Include="家宝.cpp" />
+    <ClCompile Include="戦争_気象.cpp" />
+    <ClCompile Include="暦.cpp" />
+    <ClCompile Include="武将.cpp" />
+    <ClCompile Include="演出.cpp" />
+    <ClCompile Include="環境設定.cpp" />
+    <ClCompile Include="起動環境設定.cpp" />
+    <ClCompile Include="終了ボタン.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="語句変化.cpp" />
+    <ClCompile Include="軍団.cpp" />
+    <ClCompile Include="県.cpp" />
+    <ClCompile Include="音楽.cpp" />
+    <ClCompile Include="２Ｄベクトル.cpp" />
+    <ClCompile Include="３Ｄベクトル.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="HD.version.def" />
+    <None Include="天翔記クラス_初期化.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net">
+      <HintPath>..\..\..\..\..\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.6\System.Net.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http">
+      <HintPath>..\..\..\..\..\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.6\System.Net.Http.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Numerics">
+      <HintPath>..\..\..\..\..\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.6\System.Numerics.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization">
+      <HintPath>..\..\..\..\..\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.6\System.Runtime.Serialization.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Windows" />
+    <Reference Include="System.Windows.Forms">
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.6\System.Windows.Forms.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml">
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.6\System.Xml.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\version\const_def.h" />
+    <ClInclude Include="2DDirectString.h" />
+    <ClInclude Include="2DPosition.h" />
+    <ClInclude Include="3DPosition.h" />
+    <ClInclude Include="Arabia2Kanji.h" />
+    <ClInclude Include="Dijkstra.h" />
+    <ClInclude Include="DijkstraCastle.h" />
+    <ClInclude Include="DoBGMPlay.h" />
+    <ClInclude Include="DoCameraMove.h" />
+    <ClInclude Include="DoFade.h" />
+    <ClInclude Include="DoImageDialog.h" />
+    <ClInclude Include="DoMessageDialog.h" />
+    <ClInclude Include="DoSoundPlay.h" />
+    <ClInclude Include="GameDataStructBattleHex.h" />
+    <ClInclude Include="GameDataStructBattleTurn.h" />
+    <ClInclude Include="GameDataStructBgm.h" />
+    <ClInclude Include="GameDataStructBushouRelation.h" />
+    <ClInclude Include="GameDataStructHukidashi.h" />
+    <ClInclude Include="GameDataStructParamMax.h" />
+    <ClInclude Include="GameDataStruct.h" />
+    <ClInclude Include="GameDataStructBattle.h" />
+    <ClInclude Include="GameDataStructBushou.h" />
+    <ClInclude Include="GameDataStructCastle.h" />
+    <ClInclude Include="GameDataStructChimei.h" />
+    <ClInclude Include="GameDataStructDaimyo.h" />
+    <ClInclude Include="GameDataStructDoumei.h" />
+    <ClInclude Include="GameDataStructGundan.h" />
+    <ClInclude Include="GameDataStructKahou.h" />
+    <ClInclude Include="GameDataStructKani.h" />
+    <ClInclude Include="GameDataStructMovie.h" />
+    <ClInclude Include="GameDataStructPlayer.h" />
+    <ClInclude Include="GameDataStructScenario.h" />
+    <ClInclude Include="GameDataStructSettings.h" />
+    <ClInclude Include="GameDataStructSoba.h" />
+    <ClInclude Include="GameDataStructTurn.h" />
+    <ClInclude Include="GameDataStructYakusyoku.h" />
+    <ClInclude Include="GameDataStructYear.h" />
+    <ClInclude Include="GeometryMath.h" />
+    <ClInclude Include="GetWarekiFromYMD.h" />
+    <ClInclude Include="GlobalVariable.h" />
+    <ClInclude Include="ManagedString.h" />
+    <ClInclude Include="OnChangeFieldWarTurn.h" />
+    <ClInclude Include="OnFileRequest.h" />
+    <ClInclude Include="OnSelectingScenario.h" />
+    <ClInclude Include="OnWriteFukidashiMessage.h" />
+    <ClInclude Include="OutputDebugStream.h" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="tmath.h" />
+    <ClInclude Include="Todouhuken.h" />
+    <ClInclude Include="type_limits.h" />
+    <ClInclude Include="WriteAdmJumperAndReturn.h" />
+    <ClInclude Include="ダイアログ列挙.h" />
+    <ClInclude Include="ユーザークラス.h" />
+    <ClInclude Include="戦争.h" />
+    <ClInclude Include="戦争_ターン.h" />
+    <ClInclude Include="戦争_ヘックス.h" />
+    <ClInclude Include="戦争_ヘックス列挙.h" />
+    <ClInclude Include="戦略.h" />
+    <ClInclude Include="戦略_ターン.h" />
+    <ClInclude Include="デバッグ出力.h" />
+    <ClInclude Include="ダイアログ.h" />
+    <ClInclude Include="効果音.h" />
+    <ClInclude Include="効果音列挙.h" />
+    <ClInclude Include="噴出メッセージ.h" />
+    <ClInclude Include="国.h" />
+    <ClInclude Include="国列挙.h" />
+    <ClInclude Include="城.h" />
+    <ClInclude Include="城位置.h" />
+    <ClInclude Include="城列挙.h" />
+    <ClInclude Include="大名.h" />
+    <ClInclude Include="大名列挙.h" />
+    <ClInclude Include="官位.h" />
+    <ClInclude Include="官位列挙.h" />
+    <ClInclude Include="家宝.h" />
+    <ClInclude Include="家宝列挙.h" />
+    <ClInclude Include="役職列挙.h" />
+    <ClInclude Include="暦列挙.h" />
+    <ClInclude Include="武将列挙.h" />
+    <ClInclude Include="戦争_気象.h" />
+    <ClInclude Include="天翔記クラス.h" />
+    <ClInclude Include="暦.h" />
+    <ClInclude Include="武将.h" />
+    <ClInclude Include="戦争_気象列挙.h" />
+    <ClInclude Include="演出.h" />
+    <ClInclude Include="環境設定.h" />
+    <ClInclude Include="環境設定列挙.h" />
+    <ClInclude Include="語句変化.h" />
+    <ClInclude Include="起動環境設定.h" />
+    <ClInclude Include="起動環境設定列挙.h" />
+    <ClInclude Include="軍団.h" />
+    <ClInclude Include="県.h" />
+    <ClInclude Include="県列挙.h" />
+    <ClInclude Include="軍団列挙.h" />
+    <ClInclude Include="配列範囲.h" />
+    <ClInclude Include="音楽.h" />
+    <ClInclude Include="音楽列挙.h" />
+    <ClInclude Include="２Ｄベクトル.h" />
+    <ClInclude Include="３Ｄベクトル.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="HD.version.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="超重要ブレイク場所.txt">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </Text>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

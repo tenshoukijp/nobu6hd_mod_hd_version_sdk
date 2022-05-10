@@ -1,0 +1,959 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="①参照しない。変更しない。">
+      <UniqueIdentifier>{8eb2f6fb-2558-4e28-89bb-cfe98e708cd4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="①参照しない。変更しない。\ソースファイル">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="①参照しない。変更しない。\ソースファイル\05.プロセス">
+      <UniqueIdentifier>{ed5ed41c-4688-44a5-bbd6-bd03671247d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="①参照しない。変更しない。\ソースファイル\70.文字列変換">
+      <UniqueIdentifier>{bd48dbbe-f78d-41c4-86f8-7d4cb9416efb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="①参照しない。変更しない。\ソースファイル\90.デバッグ">
+      <UniqueIdentifier>{a4de24de-15b4-4340-83d1-0b00d7b2520b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="①参照しない。変更しない。\ソースファイル\01.DLLエキスポート">
+      <UniqueIdentifier>{d52f429c-87f8-4440-87f1-5e3900862c0b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="①参照しない。変更しない。\ソースファイル\08.プロセスチェック">
+      <UniqueIdentifier>{cefe7547-07f7-4b4b-be6e-c688b0356759}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="①参照しない。変更しない。\ソースファイル\09.ヒープチェック">
+      <UniqueIdentifier>{4ed21a2d-054e-4bba-b437-d202f37da411}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="①参照しない。変更しない。\ソースファイル\10.ゲームデータ">
+      <UniqueIdentifier>{dd6bce26-aca7-4a9e-b36f-0143bac3db89}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="①参照しない。変更しない。\ソースファイル\60.経路探索">
+      <UniqueIdentifier>{fca3f2e7-4ae6-40b6-9d63-066b7f3c4835}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="①参照しない。変更しない。\ソースファイル\55.年号和暦">
+      <UniqueIdentifier>{5a1caada-6de8-48b8-9407-ae2f13d01c78}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="①参照しない。変更しない。\ソースファイル\75.漢数字変換">
+      <UniqueIdentifier>{bfd66936-f656-453d-94f7-8c96bdf5f5cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="①参照しない。変更しない。\ソースファイル\65.数学・幾何学">
+      <UniqueIdentifier>{adc39f5e-6f47-44ba-9ba4-6f1299aa6ea9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="①参照しない。変更しない。\ソースファイル\65.都道府県">
+      <UniqueIdentifier>{13c03b66-3187-4e70-9277-9e009e9df8c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="①参照しない。変更しない。\ソースファイル\18.シナリオ選択">
+      <UniqueIdentifier>{304eb178-0029-4e83-b96b-983a53ff86a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="①参照しない。変更しない。\ソースファイル\FF.不明。参考資料">
+      <UniqueIdentifier>{36d7fa06-d0f1-4866-98b3-cc9d3c2ae9b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="①参照しない。変更しない。\ソースファイル\40.BGM">
+      <UniqueIdentifier>{f99ff359-c435-4c60-a78a-142ac6be5a82}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="①参照しない。変更しない。\ソースファイル\45.MOVIE">
+      <UniqueIdentifier>{d7395f4f-ee8a-402a-b43a-ab75c4a7dbfd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="①参照しない。変更しない。\ソースファイル\30.戦争開始・戦争終了">
+      <UniqueIdentifier>{2fe19f4b-3b23-47d4-b5fc-35d552ee656c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="①参照しない。変更しない。\ソースファイル\20.メイン画面の軍団ターン変更時">
+      <UniqueIdentifier>{7d180964-65ad-4e6c-9131-a14d9a79e53e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="①参照しない。変更しない。\ソースファイル\35.野戦のターン変更時">
+      <UniqueIdentifier>{809a07b9-1193-48fe-993e-80191041f709}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="①参照しない。変更しない。\ソースファイル\90.ジャンプインジェクション">
+      <UniqueIdentifier>{b1314c97-fee0-42a3-8b48-1c6977ce1792}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="①参照しない。変更しない。\ソースファイル\14.ファイルの読み込み時●">
+      <UniqueIdentifier>{bca3ce97-2a09-42f7-8fef-d2d3ff7b8f6e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="①参照しない。変更しない。\ソースファイル\15.噴出メッセージ●">
+      <UniqueIdentifier>{c03e23ea-bd52-4391-a2c5-ed615c51b535}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="①参照しない。変更しない。\ソースファイル\36.籠城戦のターン変更時">
+      <UniqueIdentifier>{f8141bcd-43f6-4f63-9982-54c5217889d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="①参照しない。変更しない。\ソースファイル\50.演出">
+      <UniqueIdentifier>{e620390c-3ab2-45ca-b2e7-474aa76760ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="①参照しない。変更しない。\ソースファイル\17.ダイアログメッセージ">
+      <UniqueIdentifier>{08855d28-4be5-40c1-bd1f-99b28e48bfe1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="①参照しない。変更しない。\ソースファイル\43.SOUND">
+      <UniqueIdentifier>{28d1c069-a1db-4307-a9b1-2236d9139a05}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="①参照しない。変更しない。\ヘッダーファイル">
+      <UniqueIdentifier>{69e2db5b-ab66-4df9-85ed-8e549f2094e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="①参照しない。変更しない。\リソース ファイル">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="①参照しない。変更しない。\マネージドライブラリ">
+      <UniqueIdentifier>{56011bc9-805d-4737-9469-da7545de4ba9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="②参照する。変更しない。">
+      <UniqueIdentifier>{5bcf3efd-6549-4bf6-be16-588b3bf093ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="③参照する。変更しない。">
+      <UniqueIdentifier>{a8dea399-f3a3-4be6-9a98-4fafde5be5a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="④自分で変更する。自分でバックアップを取っておく。">
+      <UniqueIdentifier>{dd323b57-5189-4269-9b68-570ce3084ab7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="temp.cpp">
+      <Filter>①参照しない。変更しない。\ソースファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="DllExportFuncs.cpp">
+      <Filter>①参照しない。変更しない。\ソースファイル\01.DLLエキスポート</Filter>
+    </ClCompile>
+    <ClCompile Include="OutputDebugStream.cpp">
+      <Filter>①参照しない。変更しない。\ソースファイル\90.デバッグ</Filter>
+    </ClCompile>
+    <ClCompile Include="ManagedProcess.h">
+      <Filter>①参照しない。変更しない。\ソースファイル\05.プロセス</Filter>
+    </ClCompile>
+    <ClCompile Include="CheckHeapInfo.cpp">
+      <Filter>①参照しない。変更しない。\ソースファイル\09.ヒープチェック</Filter>
+    </ClCompile>
+    <ClCompile Include="CheckProcessInfo.cpp">
+      <Filter>①参照しない。変更しない。\ソースファイル\08.プロセスチェック</Filter>
+    </ClCompile>
+    <ClCompile Include="GlobalVariable.cpp">
+      <Filter>①参照しない。変更しない。\ソースファイル\05.プロセス</Filter>
+    </ClCompile>
+    <ClCompile Include="ManagedString.cpp">
+      <Filter>①参照しない。変更しない。\ソースファイル\70.文字列変換</Filter>
+    </ClCompile>
+    <ClCompile Include="GameDataStructKani.cpp">
+      <Filter>①参照しない。変更しない。\ソースファイル\10.ゲームデータ</Filter>
+    </ClCompile>
+    <ClCompile Include="GameDataStructDoumei.cpp">
+      <Filter>①参照しない。変更しない。\ソースファイル\10.ゲームデータ</Filter>
+    </ClCompile>
+    <ClCompile Include="GameDataStructCastle.cpp">
+      <Filter>①参照しない。変更しない。\ソースファイル\10.ゲームデータ</Filter>
+    </ClCompile>
+    <ClCompile Include="GameDataStructBushou.cpp">
+      <Filter>①参照しない。変更しない。\ソースファイル\10.ゲームデータ</Filter>
+    </ClCompile>
+    <ClCompile Include="GameDataStructGundan.cpp">
+      <Filter>①参照しない。変更しない。\ソースファイル\10.ゲームデータ</Filter>
+    </ClCompile>
+    <ClCompile Include="GameDataStructDaimyo.cpp">
+      <Filter>①参照しない。変更しない。\ソースファイル\10.ゲームデータ</Filter>
+    </ClCompile>
+    <ClCompile Include="Dijkstra.cpp">
+      <Filter>①参照しない。変更しない。\ソースファイル\60.経路探索</Filter>
+    </ClCompile>
+    <ClCompile Include="Dijkstra_draw.cpp">
+      <Filter>①参照しない。変更しない。\ソースファイル\60.経路探索</Filter>
+    </ClCompile>
+    <ClCompile Include="Dijkstra_io.cpp">
+      <Filter>①参照しない。変更しない。\ソースファイル\60.経路探索</Filter>
+    </ClCompile>
+    <ClCompile Include="Dijkstra_node.cpp">
+      <Filter>①参照しない。変更しない。\ソースファイル\60.経路探索</Filter>
+    </ClCompile>
+    <ClCompile Include="DijkstraCastle.cpp">
+      <Filter>①参照しない。変更しない。\ソースファイル\60.経路探索</Filter>
+    </ClCompile>
+    <ClCompile Include="CastleConnectEdge.cpp">
+      <Filter>①参照しない。変更しない。\ソースファイル\60.経路探索</Filter>
+    </ClCompile>
+    <ClCompile Include="GameDataStructYakusyoku.cpp">
+      <Filter>①参照しない。変更しない。\ソースファイル\10.ゲームデータ</Filter>
+    </ClCompile>
+    <ClCompile Include="GameDataStructYear.cpp">
+      <Filter>①参照しない。変更しない。\ソースファイル\10.ゲームデータ</Filter>
+    </ClCompile>
+    <ClCompile Include="GetWarekiFromYMD.cpp">
+      <Filter>①参照しない。変更しない。\ソースファイル\55.年号和暦</Filter>
+    </ClCompile>
+    <ClCompile Include="Arabia2Kanji.cpp">
+      <Filter>①参照しない。変更しない。\ソースファイル\75.漢数字変換</Filter>
+    </ClCompile>
+    <ClCompile Include="GameDataStructPlayer.cpp">
+      <Filter>①参照しない。変更しない。\ソースファイル\10.ゲームデータ</Filter>
+    </ClCompile>
+    <ClCompile Include="GameDataStructMovie.cpp">
+      <Filter>①参照しない。変更しない。\ソースファイル\10.ゲームデータ</Filter>
+    </ClCompile>
+    <ClCompile Include="GameDataStructBgm.cpp">
+      <Filter>①参照しない。変更しない。\ソースファイル\10.ゲームデータ</Filter>
+    </ClCompile>
+    <ClCompile Include="2DDirectString.cpp">
+      <Filter>①参照しない。変更しない。\ソースファイル\65.数学・幾何学</Filter>
+    </ClCompile>
+    <ClCompile Include="2DPosition.cpp">
+      <Filter>①参照しない。変更しない。\ソースファイル\65.数学・幾何学</Filter>
+    </ClCompile>
+    <ClCompile Include="3DPosition.cpp">
+      <Filter>①参照しない。変更しない。\ソースファイル\65.数学・幾何学</Filter>
+    </ClCompile>
+    <ClCompile Include="GameDataStructBattle.cpp">
+      <Filter>①参照しない。変更しない。\ソースファイル\10.ゲームデータ</Filter>
+    </ClCompile>
+    <ClCompile Include="tmath.cpp">
+      <Filter>①参照しない。変更しない。\ソースファイル\65.数学・幾何学</Filter>
+    </ClCompile>
+    <ClCompile Include="GeometryMath.cpp">
+      <Filter>①参照しない。変更しない。\ソースファイル\65.数学・幾何学</Filter>
+    </ClCompile>
+    <ClCompile Include="GameDataStructBattleHexRoleCollision.cpp">
+      <Filter>①参照しない。変更しない。\ソースファイル\10.ゲームデータ</Filter>
+    </ClCompile>
+    <ClCompile Include="Todouhuken.cpp">
+      <Filter>①参照しない。変更しない。\ソースファイル\65.都道府県</Filter>
+    </ClCompile>
+    <ClCompile Include="WriteAsmJumperAndReturn.cpp">
+      <Filter>①参照しない。変更しない。\ソースファイル\90.ジャンプインジェクション</Filter>
+    </ClCompile>
+    <ClCompile Include="MessgaeComment1.cpp">
+      <Filter>①参照しない。変更しない。\ソースファイル\FF.不明。参考資料</Filter>
+    </ClCompile>
+    <ClCompile Include="MessageComment3.cpp">
+      <Filter>①参照しない。変更しない。\ソースファイル\FF.不明。参考資料</Filter>
+    </ClCompile>
+    <ClCompile Include="MessageComment4.cpp">
+      <Filter>①参照しない。変更しない。\ソースファイル\FF.不明。参考資料</Filter>
+    </ClCompile>
+    <ClCompile Include="MessageComment5.cpp">
+      <Filter>①参照しない。変更しない。\ソースファイル\FF.不明。参考資料</Filter>
+    </ClCompile>
+    <ClCompile Include="OnFileRequest.cpp">
+      <Filter>①参照しない。変更しない。\ソースファイル\14.ファイルの読み込み時●</Filter>
+    </ClCompile>
+    <ClCompile Include="AssemblyInfo.cpp">
+      <Filter>①参照しない。変更しない。\リソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="GameDataStructBattleTurn.cpp">
+      <Filter>①参照しない。変更しない。\ソースファイル\10.ゲームデータ</Filter>
+    </ClCompile>
+    <ClCompile Include="OnSelectingScenario.cpp">
+      <Filter>①参照しない。変更しない。\ソースファイル\18.シナリオ選択</Filter>
+    </ClCompile>
+    <ClCompile Include="●OnCreateFileA02.cpp">
+      <Filter>①参照しない。変更しない。\ソースファイル\14.ファイルの読み込み時●</Filter>
+    </ClCompile>
+    <ClCompile Include="●OnCreateFileA04.cpp">
+      <Filter>①参照しない。変更しない。\ソースファイル\14.ファイルの読み込み時●</Filter>
+    </ClCompile>
+    <ClCompile Include="●OnCreateFileA03.cpp">
+      <Filter>①参照しない。変更しない。\ソースファイル\14.ファイルの読み込み時●</Filter>
+    </ClCompile>
+    <ClCompile Include="●OnCreateFileA05.cpp">
+      <Filter>①参照しない。変更しない。\ソースファイル\14.ファイルの読み込み時●</Filter>
+    </ClCompile>
+    <ClCompile Include="●OnCreateFileA06.cpp">
+      <Filter>①参照しない。変更しない。\ソースファイル\14.ファイルの読み込み時●</Filter>
+    </ClCompile>
+    <ClCompile Include="●OnCreateFileA07.cpp">
+      <Filter>①参照しない。変更しない。\ソースファイル\14.ファイルの読み込み時●</Filter>
+    </ClCompile>
+    <ClCompile Include="●OnCreateFileA08.cpp">
+      <Filter>①参照しない。変更しない。\ソースファイル\14.ファイルの読み込み時●</Filter>
+    </ClCompile>
+    <ClCompile Include="●OnCreateFileA09.cpp">
+      <Filter>①参照しない。変更しない。\ソースファイル\14.ファイルの読み込み時●</Filter>
+    </ClCompile>
+    <ClCompile Include="●OnCreateFileA12.cpp">
+      <Filter>①参照しない。変更しない。\ソースファイル\14.ファイルの読み込み時●</Filter>
+    </ClCompile>
+    <ClCompile Include="●OnCreateFileA11.cpp">
+      <Filter>①参照しない。変更しない。\ソースファイル\14.ファイルの読み込み時●</Filter>
+    </ClCompile>
+    <ClCompile Include="●OnCreateFileA01.cpp">
+      <Filter>①参照しない。変更しない。\ソースファイル\14.ファイルの読み込み時●</Filter>
+    </ClCompile>
+    <ClCompile Include="●OnCreateFileA10.cpp">
+      <Filter>①参照しない。変更しない。\ソースファイル\14.ファイルの読み込み時●</Filter>
+    </ClCompile>
+    <ClCompile Include="▲_CommentOtherFileName.cpp">
+      <Filter>①参照しない。変更しない。\ソースファイル\14.ファイルの読み込み時●</Filter>
+    </ClCompile>
+    <ClCompile Include="●OnWriteFukidashiMessage01.cpp">
+      <Filter>①参照しない。変更しない。\ソースファイル\15.噴出メッセージ●</Filter>
+    </ClCompile>
+    <ClCompile Include="▲_CommentOnWriteFukidashiMessage.cpp">
+      <Filter>①参照しない。変更しない。\ソースファイル\15.噴出メッセージ●</Filter>
+    </ClCompile>
+    <ClCompile Include="●OnChangeGundanTurn.cpp">
+      <Filter>①参照しない。変更しない。\ソースファイル\20.メイン画面の軍団ターン変更時</Filter>
+    </ClCompile>
+    <ClCompile Include="●OnChangeGundanTurnUndef.cpp">
+      <Filter>①参照しない。変更しない。\ソースファイル\20.メイン画面の軍団ターン変更時</Filter>
+    </ClCompile>
+    <ClCompile Include="●GameDataStruct.cpp">
+      <Filter>①参照しない。変更しない。\ソースファイル\10.ゲームデータ</Filter>
+    </ClCompile>
+    <ClCompile Include="●OnMOVIENumberRequested.cpp">
+      <Filter>①参照しない。変更しない。\ソースファイル\45.MOVIE</Filter>
+    </ClCompile>
+    <ClCompile Include="●OnBGMNumberRequested.cpp">
+      <Filter>①参照しない。変更しない。\ソースファイル\40.BGM</Filter>
+    </ClCompile>
+    <ClCompile Include="●OnBattleClear.cpp">
+      <Filter>①参照しない。変更しない。\ソースファイル\30.戦争開始・戦争終了</Filter>
+    </ClCompile>
+    <ClCompile Include="●OnBattleStart.cpp">
+      <Filter>①参照しない。変更しない。\ソースファイル\30.戦争開始・戦争終了</Filter>
+    </ClCompile>
+    <ClCompile Include="●OnWarScreenEnd.cpp">
+      <Filter>①参照しない。変更しない。\ソースファイル\30.戦争開始・戦争終了</Filter>
+    </ClCompile>
+    <ClCompile Include="●OnHoryoShogu.cpp">
+      <Filter>①参照しない。変更しない。\ソースファイル\30.戦争開始・戦争終了</Filter>
+    </ClCompile>
+    <ClCompile Include="●OnFieldWarStart01.cpp">
+      <Filter>①参照しない。変更しない。\ソースファイル\35.野戦のターン変更時</Filter>
+    </ClCompile>
+    <ClCompile Include="●OnFieldWarStart02.cpp">
+      <Filter>①参照しない。変更しない。\ソースファイル\35.野戦のターン変更時</Filter>
+    </ClCompile>
+    <ClCompile Include="●OnFieldWarStart03.cpp">
+      <Filter>①参照しない。変更しない。\ソースファイル\35.野戦のターン変更時</Filter>
+    </ClCompile>
+    <ClCompile Include="●OnChangeFieldWarTurn.cpp">
+      <Filter>①参照しない。変更しない。\ソースファイル\35.野戦のターン変更時</Filter>
+    </ClCompile>
+    <ClCompile Include="●OnChangeFieldWarTurnInit.cpp">
+      <Filter>①参照しない。変更しない。\ソースファイル\35.野戦のターン変更時</Filter>
+    </ClCompile>
+    <ClCompile Include="●OnCastleWarStart01.cpp">
+      <Filter>①参照しない。変更しない。\ソースファイル\36.籠城戦のターン変更時</Filter>
+    </ClCompile>
+    <ClCompile Include="GameDataStructBushouRelation.cpp">
+      <Filter>①参照しない。変更しない。\ソースファイル\10.ゲームデータ</Filter>
+    </ClCompile>
+    <ClCompile Include="●DoBGMPlay.cpp">
+      <Filter>①参照しない。変更しない。\ソースファイル\40.BGM</Filter>
+    </ClCompile>
+    <ClCompile Include="GameDataStructSceanrio.cpp">
+      <Filter>①参照しない。変更しない。\ソースファイル\10.ゲームデータ</Filter>
+    </ClCompile>
+    <ClCompile Include="GameDataStructKahou.cpp">
+      <Filter>①参照しない。変更しない。\ソースファイル\10.ゲームデータ</Filter>
+    </ClCompile>
+    <ClCompile Include="95版の桶狭間.cpp">
+      <Filter>①参照しない。変更しない。\ソースファイル\FF.不明。参考資料</Filter>
+    </ClCompile>
+    <ClCompile Include="HD版の桶狭間.cpp">
+      <Filter>①参照しない。変更しない。\ソースファイル\FF.不明。参考資料</Filter>
+    </ClCompile>
+    <ClCompile Include="●DoCameraMove.cpp">
+      <Filter>①参照しない。変更しない。\ソースファイル\50.演出</Filter>
+    </ClCompile>
+    <ClCompile Include="●DoFade.cpp">
+      <Filter>①参照しない。変更しない。\ソースファイル\50.演出</Filter>
+    </ClCompile>
+    <ClCompile Include="●DoMessageDialog.cpp">
+      <Filter>①参照しない。変更しない。\ソースファイル\17.ダイアログメッセージ</Filter>
+    </ClCompile>
+    <ClCompile Include="●DoImageDialog.cpp">
+      <Filter>①参照しない。変更しない。\ソースファイル\17.ダイアログメッセージ</Filter>
+    </ClCompile>
+    <ClCompile Include="DoSoundPlay.cpp">
+      <Filter>①参照しない。変更しない。\ソースファイル\43.SOUND</Filter>
+    </ClCompile>
+    <ClCompile Include="終了ボタン.cpp">
+      <Filter>①参照しない。変更しない。\ソースファイル\FF.不明。参考資料</Filter>
+    </ClCompile>
+    <ClCompile Include="●DoOkCancelDIalog.cpp">
+      <Filter>①参照しない。変更しない。\ソースファイル\17.ダイアログメッセージ</Filter>
+    </ClCompile>
+    <ClCompile Include="２Ｄベクトル.cpp">
+      <Filter>①参照しない。変更しない。\マネージドライブラリ</Filter>
+    </ClCompile>
+    <ClCompile Include="３Ｄベクトル.cpp">
+      <Filter>①参照しない。変更しない。\マネージドライブラリ</Filter>
+    </ClCompile>
+    <ClCompile Include="ダイアログ.cpp">
+      <Filter>①参照しない。変更しない。\マネージドライブラリ</Filter>
+    </ClCompile>
+    <ClCompile Include="デバッグ出力.cpp">
+      <Filter>①参照しない。変更しない。\マネージドライブラリ</Filter>
+    </ClCompile>
+    <ClCompile Include="演出.cpp">
+      <Filter>①参照しない。変更しない。\マネージドライブラリ</Filter>
+    </ClCompile>
+    <ClCompile Include="音楽.cpp">
+      <Filter>①参照しない。変更しない。\マネージドライブラリ</Filter>
+    </ClCompile>
+    <ClCompile Include="家宝.cpp">
+      <Filter>①参照しない。変更しない。\マネージドライブラリ</Filter>
+    </ClCompile>
+    <ClCompile Include="官位.cpp">
+      <Filter>①参照しない。変更しない。\マネージドライブラリ</Filter>
+    </ClCompile>
+    <ClCompile Include="環境設定.cpp">
+      <Filter>①参照しない。変更しない。\マネージドライブラリ</Filter>
+    </ClCompile>
+    <ClCompile Include="起動環境設定.cpp">
+      <Filter>①参照しない。変更しない。\マネージドライブラリ</Filter>
+    </ClCompile>
+    <ClCompile Include="軍団.cpp">
+      <Filter>①参照しない。変更しない。\マネージドライブラリ</Filter>
+    </ClCompile>
+    <ClCompile Include="県.cpp">
+      <Filter>①参照しない。変更しない。\マネージドライブラリ</Filter>
+    </ClCompile>
+    <ClCompile Include="語句変化.cpp">
+      <Filter>①参照しない。変更しない。\マネージドライブラリ</Filter>
+    </ClCompile>
+    <ClCompile Include="効果音.cpp">
+      <Filter>①参照しない。変更しない。\マネージドライブラリ</Filter>
+    </ClCompile>
+    <ClCompile Include="国.cpp">
+      <Filter>①参照しない。変更しない。\マネージドライブラリ</Filter>
+    </ClCompile>
+    <ClCompile Include="城.cpp">
+      <Filter>①参照しない。変更しない。\マネージドライブラリ</Filter>
+    </ClCompile>
+    <ClCompile Include="城位置.cpp">
+      <Filter>①参照しない。変更しない。\マネージドライブラリ</Filter>
+    </ClCompile>
+    <ClCompile Include="戦争.cpp">
+      <Filter>①参照しない。変更しない。\マネージドライブラリ</Filter>
+    </ClCompile>
+    <ClCompile Include="戦争_ターン.cpp">
+      <Filter>①参照しない。変更しない。\マネージドライブラリ</Filter>
+    </ClCompile>
+    <ClCompile Include="戦争_ヘックス.cpp">
+      <Filter>①参照しない。変更しない。\マネージドライブラリ</Filter>
+    </ClCompile>
+    <ClCompile Include="戦争_気象.cpp">
+      <Filter>①参照しない。変更しない。\マネージドライブラリ</Filter>
+    </ClCompile>
+    <ClCompile Include="戦略_ターン.cpp">
+      <Filter>①参照しない。変更しない。\マネージドライブラリ</Filter>
+    </ClCompile>
+    <ClCompile Include="大名.cpp">
+      <Filter>①参照しない。変更しない。\マネージドライブラリ</Filter>
+    </ClCompile>
+    <ClCompile Include="武将.cpp">
+      <Filter>①参照しない。変更しない。\マネージドライブラリ</Filter>
+    </ClCompile>
+    <ClCompile Include="暦.cpp">
+      <Filter>①参照しない。変更しない。\マネージドライブラリ</Filter>
+    </ClCompile>
+    <ClCompile Include="天翔記クラス.cpp">
+      <Filter>④自分で変更する。自分でバックアップを取っておく。</Filter>
+    </ClCompile>
+    <ClCompile Include="●BGMCallTable.cpp">
+      <Filter>①参照しない。変更しない。\ソースファイル\40.BGM</Filter>
+    </ClCompile>
+    <ClCompile Include="●OnBGMCallFunc_01.cpp">
+      <Filter>①参照しない。変更しない。\ソースファイル\40.BGM</Filter>
+    </ClCompile>
+    <ClCompile Include="●OnBGMCallFunc_02.cpp">
+      <Filter>①参照しない。変更しない。\ソースファイル\40.BGM</Filter>
+    </ClCompile>
+    <ClCompile Include="●OnBGMCallFunc_03.cpp">
+      <Filter>①参照しない。変更しない。\ソースファイル\40.BGM</Filter>
+    </ClCompile>
+    <ClCompile Include="●OnBGMCallFunc_04.cpp">
+      <Filter>①参照しない。変更しない。\ソースファイル\40.BGM</Filter>
+    </ClCompile>
+    <ClCompile Include="●OnBGMCallFunc_05.cpp">
+      <Filter>①参照しない。変更しない。\ソースファイル\40.BGM</Filter>
+    </ClCompile>
+    <ClCompile Include="●OnBGMCallFunc_06.cpp">
+      <Filter>①参照しない。変更しない。\ソースファイル\40.BGM</Filter>
+    </ClCompile>
+    <ClCompile Include="●OnBGMCallFunc_07.cpp">
+      <Filter>①参照しない。変更しない。\ソースファイル\40.BGM</Filter>
+    </ClCompile>
+    <ClCompile Include="●OnBGMCallFunc_08.cpp">
+      <Filter>①参照しない。変更しない。\ソースファイル\40.BGM</Filter>
+    </ClCompile>
+    <ClCompile Include="●OnBGMCallFunc_09.cpp">
+      <Filter>①参照しない。変更しない。\ソースファイル\40.BGM</Filter>
+    </ClCompile>
+    <ClCompile Include="●OnBGMCallFunc_10.cpp">
+      <Filter>①参照しない。変更しない。\ソースファイル\40.BGM</Filter>
+    </ClCompile>
+    <ClCompile Include="●OnBGMCallFunc_11.cpp">
+      <Filter>①参照しない。変更しない。\ソースファイル\40.BGM</Filter>
+    </ClCompile>
+    <ClCompile Include="●OnBGMCallFunc_12.cpp">
+      <Filter>①参照しない。変更しない。\ソースファイル\40.BGM</Filter>
+    </ClCompile>
+    <ClCompile Include="●OnBGMCallFunc_13.cpp">
+      <Filter>①参照しない。変更しない。\ソースファイル\40.BGM</Filter>
+    </ClCompile>
+    <ClCompile Include="●OnBGMCallFunc_14.cpp">
+      <Filter>①参照しない。変更しない。\ソースファイル\40.BGM</Filter>
+    </ClCompile>
+    <ClCompile Include="●OnBGMCallFunc_15.cpp">
+      <Filter>①参照しない。変更しない。\ソースファイル\40.BGM</Filter>
+    </ClCompile>
+    <ClCompile Include="●OnBGMCallFunc_16.cpp">
+      <Filter>①参照しない。変更しない。\ソースファイル\40.BGM</Filter>
+    </ClCompile>
+    <ClCompile Include="●OnBGMCallFunc_17.cpp">
+      <Filter>①参照しない。変更しない。\ソースファイル\40.BGM</Filter>
+    </ClCompile>
+    <ClCompile Include="●OnBGMCallFunc_18.cpp">
+      <Filter>①参照しない。変更しない。\ソースファイル\40.BGM</Filter>
+    </ClCompile>
+    <ClCompile Include="●OnBGMCallFunc_19.cpp">
+      <Filter>①参照しない。変更しない。\ソースファイル\40.BGM</Filter>
+    </ClCompile>
+    <ClCompile Include="●OnBGMCallFunc_20.cpp">
+      <Filter>①参照しない。変更しない。\ソースファイル\40.BGM</Filter>
+    </ClCompile>
+    <ClCompile Include="●OnBGMCallFunc_21.cpp">
+      <Filter>①参照しない。変更しない。\ソースファイル\40.BGM</Filter>
+    </ClCompile>
+    <ClCompile Include="●OnBGMCallFunc_22.cpp">
+      <Filter>①参照しない。変更しない。\ソースファイル\40.BGM</Filter>
+    </ClCompile>
+    <ClCompile Include="●OnBGMCallFunc_23.cpp">
+      <Filter>①参照しない。変更しない。\ソースファイル\40.BGM</Filter>
+    </ClCompile>
+    <ClCompile Include="●OnBGMCallFunc_24.cpp">
+      <Filter>①参照しない。変更しない。\ソースファイル\40.BGM</Filter>
+    </ClCompile>
+    <ClCompile Include="●OnBGMCallFunc_25.cpp">
+      <Filter>①参照しない。変更しない。\ソースファイル\40.BGM</Filter>
+    </ClCompile>
+    <ClCompile Include="●OnBGMCallFunc_26.cpp">
+      <Filter>①参照しない。変更しない。\ソースファイル\40.BGM</Filter>
+    </ClCompile>
+    <ClCompile Include="●OnBGMCallFunc_27.cpp">
+      <Filter>①参照しない。変更しない。\ソースファイル\40.BGM</Filter>
+    </ClCompile>
+    <ClCompile Include="●OnBGMCallFunc_28.cpp">
+      <Filter>①参照しない。変更しない。\ソースファイル\40.BGM</Filter>
+    </ClCompile>
+    <ClCompile Include="●OnBGMCallFunc_29.cpp">
+      <Filter>①参照しない。変更しない。\ソースファイル\40.BGM</Filter>
+    </ClCompile>
+    <ClCompile Include="●OnBGMCallFunc_30.cpp">
+      <Filter>①参照しない。変更しない。\ソースファイル\40.BGM</Filter>
+    </ClCompile>
+    <ClCompile Include="●OnBGMCallFunc_31.cpp">
+      <Filter>①参照しない。変更しない。\ソースファイル\40.BGM</Filter>
+    </ClCompile>
+    <ClCompile Include="●OnBGMCallFunc_32.cpp">
+      <Filter>①参照しない。変更しない。\ソースファイル\40.BGM</Filter>
+    </ClCompile>
+    <ClCompile Include="●OnBGMCallFunc_33.cpp">
+      <Filter>①参照しない。変更しない。\ソースファイル\40.BGM</Filter>
+    </ClCompile>
+    <ClCompile Include="●OnBGMCallFunc_34.cpp">
+      <Filter>①参照しない。変更しない。\ソースファイル\40.BGM</Filter>
+    </ClCompile>
+    <ClCompile Include="●OnBGMCallFunc_35.cpp">
+      <Filter>①参照しない。変更しない。\ソースファイル\40.BGM</Filter>
+    </ClCompile>
+    <ClCompile Include="●OnBGMCallFunc_36.cpp">
+      <Filter>①参照しない。変更しない。\ソースファイル\40.BGM</Filter>
+    </ClCompile>
+    <ClCompile Include="●OnBGMCallFunc_37.cpp">
+      <Filter>①参照しない。変更しない。\ソースファイル\40.BGM</Filter>
+    </ClCompile>
+    <ClCompile Include="●OnBGMCallFunc_38.cpp">
+      <Filter>①参照しない。変更しない。\ソースファイル\40.BGM</Filter>
+    </ClCompile>
+    <ClCompile Include="●OnBGMCallFunc_39.cpp">
+      <Filter>①参照しない。変更しない。\ソースファイル\40.BGM</Filter>
+    </ClCompile>
+    <ClCompile Include="●OnBGMCallFunc_40.cpp">
+      <Filter>①参照しない。変更しない。\ソースファイル\40.BGM</Filter>
+    </ClCompile>
+    <ClCompile Include="●OnBGMCallFunc_41.cpp">
+      <Filter>①参照しない。変更しない。\ソースファイル\40.BGM</Filter>
+    </ClCompile>
+    <ClCompile Include="●OnBGMCallFunc_42.cpp">
+      <Filter>①参照しない。変更しない。\ソースファイル\40.BGM</Filter>
+    </ClCompile>
+    <ClCompile Include="●OnBGMCallFunc_43.cpp">
+      <Filter>①参照しない。変更しない。\ソースファイル\40.BGM</Filter>
+    </ClCompile>
+    <ClCompile Include="●OnBGMCallFunc_44.cpp">
+      <Filter>①参照しない。変更しない。\ソースファイル\40.BGM</Filter>
+    </ClCompile>
+    <ClCompile Include="●OnBGMCallFunc_45.cpp">
+      <Filter>①参照しない。変更しない。\ソースファイル\40.BGM</Filter>
+    </ClCompile>
+    <ClCompile Include="●OnBGMCallFunc_46.cpp">
+      <Filter>①参照しない。変更しない。\ソースファイル\40.BGM</Filter>
+    </ClCompile>
+    <ClCompile Include="●OnBGMCallFunc_47.cpp">
+      <Filter>①参照しない。変更しない。\ソースファイル\40.BGM</Filter>
+    </ClCompile>
+    <ClCompile Include="●OnBGMCallFunc_48.cpp">
+      <Filter>①参照しない。変更しない。\ソースファイル\40.BGM</Filter>
+    </ClCompile>
+    <ClCompile Include="●OnBGMCallFunc_49.cpp">
+      <Filter>①参照しない。変更しない。\ソースファイル\40.BGM</Filter>
+    </ClCompile>
+    <ClCompile Include="●OnBGMCallFunc_50.cpp">
+      <Filter>①参照しない。変更しない。\ソースファイル\40.BGM</Filter>
+    </ClCompile>
+    <ClCompile Include="●OnBGMCallFunc_51.cpp">
+      <Filter>①参照しない。変更しない。\ソースファイル\40.BGM</Filter>
+    </ClCompile>
+    <ClCompile Include="●OnBGMCallFunc_52.cpp">
+      <Filter>①参照しない。変更しない。\ソースファイル\40.BGM</Filter>
+    </ClCompile>
+    <ClCompile Include="●OnBGMCallFunc_53.cpp">
+      <Filter>①参照しない。変更しない。\ソースファイル\40.BGM</Filter>
+    </ClCompile>
+    <ClCompile Include="●OnBGMCallFunc_54.cpp">
+      <Filter>①参照しない。変更しない。\ソースファイル\40.BGM</Filter>
+    </ClCompile>
+    <ClCompile Include="●OnBGMCallFunc_55.cpp">
+      <Filter>①参照しない。変更しない。\ソースファイル\40.BGM</Filter>
+    </ClCompile>
+    <ClCompile Include="●OnBGMCallFunc_56.cpp">
+      <Filter>①参照しない。変更しない。\ソースファイル\40.BGM</Filter>
+    </ClCompile>
+    <ClCompile Include="●OnBGMCallFunc_57.cpp">
+      <Filter>①参照しない。変更しない。\ソースファイル\40.BGM</Filter>
+    </ClCompile>
+    <ClCompile Include="●OnBGMCallFunc_58.cpp">
+      <Filter>①参照しない。変更しない。\ソースファイル\40.BGM</Filter>
+    </ClCompile>
+    <ClCompile Include="●OnBGMCallFunc_59.cpp">
+      <Filter>①参照しない。変更しない。\ソースファイル\40.BGM</Filter>
+    </ClCompile>
+    <ClCompile Include="●OnBGMCallFunc_60.cpp">
+      <Filter>①参照しない。変更しない。\ソースファイル\40.BGM</Filter>
+    </ClCompile>
+    <ClCompile Include="●OnBGMCallFunc_61.cpp">
+      <Filter>①参照しない。変更しない。\ソースファイル\40.BGM</Filter>
+    </ClCompile>
+    <ClCompile Include="●OnBGMCallFunc_62.cpp">
+      <Filter>①参照しない。変更しない。\ソースファイル\40.BGM</Filter>
+    </ClCompile>
+    <ClCompile Include="噴出メッセージ.cpp">
+      <Filter>①参照しない。変更しない。\マネージドライブラリ</Filter>
+    </ClCompile>
+    <ClCompile Include="ユーザークラス.cpp">
+      <Filter>①参照しない。変更しない。\マネージドライブラリ</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="OutputDebugStream.h">
+      <Filter>①参照しない。変更しない。\ソースファイル\90.デバッグ</Filter>
+    </ClInclude>
+    <ClInclude Include="..\version\const_def.h">
+      <Filter>①参照しない。変更しない。\ヘッダーファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="GameDataStruct.h">
+      <Filter>①参照しない。変更しない。\ソースファイル\10.ゲームデータ</Filter>
+    </ClInclude>
+    <ClInclude Include="GlobalVariable.h">
+      <Filter>①参照しない。変更しない。\ソースファイル\05.プロセス</Filter>
+    </ClInclude>
+    <ClInclude Include="ManagedString.h">
+      <Filter>①参照しない。変更しない。\ソースファイル\70.文字列変換</Filter>
+    </ClInclude>
+    <ClInclude Include="GameDataStructDoumei.h">
+      <Filter>①参照しない。変更しない。\ソースファイル\10.ゲームデータ</Filter>
+    </ClInclude>
+    <ClInclude Include="GameDataStructKani.h">
+      <Filter>①参照しない。変更しない。\ソースファイル\10.ゲームデータ</Filter>
+    </ClInclude>
+    <ClInclude Include="GameDataStructCastle.h">
+      <Filter>①参照しない。変更しない。\ソースファイル\10.ゲームデータ</Filter>
+    </ClInclude>
+    <ClInclude Include="GameDataStructBushou.h">
+      <Filter>①参照しない。変更しない。\ソースファイル\10.ゲームデータ</Filter>
+    </ClInclude>
+    <ClInclude Include="GameDataStructGundan.h">
+      <Filter>①参照しない。変更しない。\ソースファイル\10.ゲームデータ</Filter>
+    </ClInclude>
+    <ClInclude Include="GameDataStructDaimyo.h">
+      <Filter>①参照しない。変更しない。\ソースファイル\10.ゲームデータ</Filter>
+    </ClInclude>
+    <ClInclude Include="Dijkstra.h">
+      <Filter>①参照しない。変更しない。\ソースファイル\60.経路探索</Filter>
+    </ClInclude>
+    <ClInclude Include="DijkstraCastle.h">
+      <Filter>①参照しない。変更しない。\ソースファイル\60.経路探索</Filter>
+    </ClInclude>
+    <ClInclude Include="GameDataStructYakusyoku.h">
+      <Filter>①参照しない。変更しない。\ソースファイル\10.ゲームデータ</Filter>
+    </ClInclude>
+    <ClInclude Include="GameDataStructYear.h">
+      <Filter>①参照しない。変更しない。\ソースファイル\10.ゲームデータ</Filter>
+    </ClInclude>
+    <ClInclude Include="GetWarekiFromYMD.h">
+      <Filter>①参照しない。変更しない。\ソースファイル\55.年号和暦</Filter>
+    </ClInclude>
+    <ClInclude Include="Arabia2Kanji.h">
+      <Filter>①参照しない。変更しない。\ソースファイル\75.漢数字変換</Filter>
+    </ClInclude>
+    <ClInclude Include="GameDataStructPlayer.h">
+      <Filter>①参照しない。変更しない。\ソースファイル\10.ゲームデータ</Filter>
+    </ClInclude>
+    <ClInclude Include="GameDataStructMovie.h">
+      <Filter>①参照しない。変更しない。\ソースファイル\10.ゲームデータ</Filter>
+    </ClInclude>
+    <ClInclude Include="GameDataStructBattle.h">
+      <Filter>①参照しない。変更しない。\ソースファイル\10.ゲームデータ</Filter>
+    </ClInclude>
+    <ClInclude Include="2DDirectString.h">
+      <Filter>①参照しない。変更しない。\ソースファイル\65.数学・幾何学</Filter>
+    </ClInclude>
+    <ClInclude Include="2DPosition.h">
+      <Filter>①参照しない。変更しない。\ソースファイル\65.数学・幾何学</Filter>
+    </ClInclude>
+    <ClInclude Include="3DPosition.h">
+      <Filter>①参照しない。変更しない。\ソースファイル\65.数学・幾何学</Filter>
+    </ClInclude>
+    <ClInclude Include="tmath.h">
+      <Filter>①参照しない。変更しない。\ソースファイル\65.数学・幾何学</Filter>
+    </ClInclude>
+    <ClInclude Include="GeometryMath.h">
+      <Filter>①参照しない。変更しない。\ソースファイル\65.数学・幾何学</Filter>
+    </ClInclude>
+    <ClInclude Include="Todouhuken.h">
+      <Filter>①参照しない。変更しない。\ソースファイル\65.都道府県</Filter>
+    </ClInclude>
+    <ClInclude Include="GameDataStructChimei.h">
+      <Filter>①参照しない。変更しない。\ソースファイル\10.ゲームデータ</Filter>
+    </ClInclude>
+    <ClInclude Include="GameDataStructKahou.h">
+      <Filter>①参照しない。変更しない。\ソースファイル\10.ゲームデータ</Filter>
+    </ClInclude>
+    <ClInclude Include="GameDataStructParamMax.h">
+      <Filter>①参照しない。変更しない。\ソースファイル\10.ゲームデータ</Filter>
+    </ClInclude>
+    <ClInclude Include="GameDataStructSoba.h">
+      <Filter>①参照しない。変更しない。\ソースファイル\10.ゲームデータ</Filter>
+    </ClInclude>
+    <ClInclude Include="GameDataStructTurn.h">
+      <Filter>①参照しない。変更しない。\ソースファイル\10.ゲームデータ</Filter>
+    </ClInclude>
+    <ClInclude Include="WriteAdmJumperAndReturn.h">
+      <Filter>①参照しない。変更しない。\ソースファイル\90.ジャンプインジェクション</Filter>
+    </ClInclude>
+    <ClInclude Include="GameDataStructHukidashi.h">
+      <Filter>①参照しない。変更しない。\ソースファイル\10.ゲームデータ</Filter>
+    </ClInclude>
+    <ClInclude Include="OnFileRequest.h">
+      <Filter>①参照しない。変更しない。\ソースファイル\14.ファイルの読み込み時●</Filter>
+    </ClInclude>
+    <ClInclude Include="GameDataStructBgm.h">
+      <Filter>①参照しない。変更しない。\ソースファイル\10.ゲームデータ</Filter>
+    </ClInclude>
+    <ClInclude Include="GameDataStructBattleHex.h">
+      <Filter>①参照しない。変更しない。\ソースファイル\10.ゲームデータ</Filter>
+    </ClInclude>
+    <ClInclude Include="GameDataStructBattleTurn.h">
+      <Filter>①参照しない。変更しない。\ソースファイル\10.ゲームデータ</Filter>
+    </ClInclude>
+    <ClInclude Include="OnWriteFukidashiMessage.h">
+      <Filter>①参照しない。変更しない。\ソースファイル\15.噴出メッセージ●</Filter>
+    </ClInclude>
+    <ClInclude Include="OnSelectingScenario.h">
+      <Filter>①参照しない。変更しない。\ソースファイル\18.シナリオ選択</Filter>
+    </ClInclude>
+    <ClInclude Include="OnChangeFieldWarTurn.h">
+      <Filter>①参照しない。変更しない。\ソースファイル\35.野戦のターン変更時</Filter>
+    </ClInclude>
+    <ClInclude Include="type_limits.h">
+      <Filter>①参照しない。変更しない。\ヘッダーファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="GameDataStructBushouRelation.h">
+      <Filter>①参照しない。変更しない。\ソースファイル\10.ゲームデータ</Filter>
+    </ClInclude>
+    <ClInclude Include="DoBGMPlay.h">
+      <Filter>①参照しない。変更しない。\ソースファイル\40.BGM</Filter>
+    </ClInclude>
+    <ClInclude Include="GameDataStructScenario.h">
+      <Filter>①参照しない。変更しない。\ソースファイル\10.ゲームデータ</Filter>
+    </ClInclude>
+    <ClInclude Include="DoCameraMove.h">
+      <Filter>①参照しない。変更しない。\ソースファイル\50.演出</Filter>
+    </ClInclude>
+    <ClInclude Include="DoFade.h">
+      <Filter>①参照しない。変更しない。\ソースファイル\50.演出</Filter>
+    </ClInclude>
+    <ClInclude Include="DoMessageDialog.h">
+      <Filter>①参照しない。変更しない。\ソースファイル\17.ダイアログメッセージ</Filter>
+    </ClInclude>
+    <ClInclude Include="DoImageDialog.h">
+      <Filter>①参照しない。変更しない。\ソースファイル\17.ダイアログメッセージ</Filter>
+    </ClInclude>
+    <ClInclude Include="DoSoundPlay.h">
+      <Filter>①参照しない。変更しない。\ソースファイル\43.SOUND</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>①参照しない。変更しない。\リソース ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="GameDataStructSettings.h">
+      <Filter>①参照しない。変更しない。\ソースファイル\10.ゲームデータ</Filter>
+    </ClInclude>
+    <ClInclude Include="２Ｄベクトル.h">
+      <Filter>②参照する。変更しない。</Filter>
+    </ClInclude>
+    <ClInclude Include="３Ｄベクトル.h">
+      <Filter>②参照する。変更しない。</Filter>
+    </ClInclude>
+    <ClInclude Include="ダイアログ.h">
+      <Filter>②参照する。変更しない。</Filter>
+    </ClInclude>
+    <ClInclude Include="デバッグ出力.h">
+      <Filter>②参照する。変更しない。</Filter>
+    </ClInclude>
+    <ClInclude Include="演出.h">
+      <Filter>②参照する。変更しない。</Filter>
+    </ClInclude>
+    <ClInclude Include="音楽.h">
+      <Filter>②参照する。変更しない。</Filter>
+    </ClInclude>
+    <ClInclude Include="音楽列挙.h">
+      <Filter>②参照する。変更しない。</Filter>
+    </ClInclude>
+    <ClInclude Include="家宝列挙.h">
+      <Filter>②参照する。変更しない。</Filter>
+    </ClInclude>
+    <ClInclude Include="家宝.h">
+      <Filter>②参照する。変更しない。</Filter>
+    </ClInclude>
+    <ClInclude Include="官位.h">
+      <Filter>②参照する。変更しない。</Filter>
+    </ClInclude>
+    <ClInclude Include="官位列挙.h">
+      <Filter>②参照する。変更しない。</Filter>
+    </ClInclude>
+    <ClInclude Include="環境設定.h">
+      <Filter>②参照する。変更しない。</Filter>
+    </ClInclude>
+    <ClInclude Include="環境設定列挙.h">
+      <Filter>②参照する。変更しない。</Filter>
+    </ClInclude>
+    <ClInclude Include="起動環境設定.h">
+      <Filter>②参照する。変更しない。</Filter>
+    </ClInclude>
+    <ClInclude Include="起動環境設定列挙.h">
+      <Filter>②参照する。変更しない。</Filter>
+    </ClInclude>
+    <ClInclude Include="軍団.h">
+      <Filter>②参照する。変更しない。</Filter>
+    </ClInclude>
+    <ClInclude Include="県.h">
+      <Filter>②参照する。変更しない。</Filter>
+    </ClInclude>
+    <ClInclude Include="県列挙.h">
+      <Filter>②参照する。変更しない。</Filter>
+    </ClInclude>
+    <ClInclude Include="語句変化.h">
+      <Filter>②参照する。変更しない。</Filter>
+    </ClInclude>
+    <ClInclude Include="効果音.h">
+      <Filter>②参照する。変更しない。</Filter>
+    </ClInclude>
+    <ClInclude Include="国.h">
+      <Filter>②参照する。変更しない。</Filter>
+    </ClInclude>
+    <ClInclude Include="国列挙.h">
+      <Filter>②参照する。変更しない。</Filter>
+    </ClInclude>
+    <ClInclude Include="城.h">
+      <Filter>②参照する。変更しない。</Filter>
+    </ClInclude>
+    <ClInclude Include="城位置.h">
+      <Filter>②参照する。変更しない。</Filter>
+    </ClInclude>
+    <ClInclude Include="城列挙.h">
+      <Filter>②参照する。変更しない。</Filter>
+    </ClInclude>
+    <ClInclude Include="戦争.h">
+      <Filter>②参照する。変更しない。</Filter>
+    </ClInclude>
+    <ClInclude Include="戦争_ターン.h">
+      <Filter>②参照する。変更しない。</Filter>
+    </ClInclude>
+    <ClInclude Include="戦争_ヘックス.h">
+      <Filter>②参照する。変更しない。</Filter>
+    </ClInclude>
+    <ClInclude Include="戦争_気象.h">
+      <Filter>②参照する。変更しない。</Filter>
+    </ClInclude>
+    <ClInclude Include="戦争_ヘックス列挙.h">
+      <Filter>②参照する。変更しない。</Filter>
+    </ClInclude>
+    <ClInclude Include="戦争_気象列挙.h">
+      <Filter>②参照する。変更しない。</Filter>
+    </ClInclude>
+    <ClInclude Include="戦略.h">
+      <Filter>②参照する。変更しない。</Filter>
+    </ClInclude>
+    <ClInclude Include="戦略_ターン.h">
+      <Filter>②参照する。変更しない。</Filter>
+    </ClInclude>
+    <ClInclude Include="大名.h">
+      <Filter>②参照する。変更しない。</Filter>
+    </ClInclude>
+    <ClInclude Include="大名列挙.h">
+      <Filter>②参照する。変更しない。</Filter>
+    </ClInclude>
+    <ClInclude Include="武将.h">
+      <Filter>②参照する。変更しない。</Filter>
+    </ClInclude>
+    <ClInclude Include="暦列挙.h">
+      <Filter>②参照する。変更しない。</Filter>
+    </ClInclude>
+    <ClInclude Include="暦.h">
+      <Filter>②参照する。変更しない。</Filter>
+    </ClInclude>
+    <ClInclude Include="役職列挙.h">
+      <Filter>②参照する。変更しない。</Filter>
+    </ClInclude>
+    <ClInclude Include="噴出メッセージ.h">
+      <Filter>②参照する。変更しない。</Filter>
+    </ClInclude>
+    <ClInclude Include="武将列挙.h">
+      <Filter>②参照する。変更しない。</Filter>
+    </ClInclude>
+    <ClInclude Include="天翔記クラス.h">
+      <Filter>③参照する。変更しない。</Filter>
+    </ClInclude>
+    <ClInclude Include="軍団列挙.h">
+      <Filter>②参照する。変更しない。</Filter>
+    </ClInclude>
+    <ClInclude Include="ダイアログ列挙.h">
+      <Filter>②参照する。変更しない。</Filter>
+    </ClInclude>
+    <ClInclude Include="配列範囲.h">
+      <Filter>②参照する。変更しない。</Filter>
+    </ClInclude>
+    <ClInclude Include="効果音列挙.h">
+      <Filter>②参照する。変更しない。</Filter>
+    </ClInclude>
+    <ClInclude Include="ユーザークラス.h">
+      <Filter>①参照しない。変更しない。\マネージドライブラリ</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="HD.version.def">
+      <Filter>①参照しない。変更しない。\ソースファイル\01.DLLエキスポート</Filter>
+    </None>
+    <None Include="天翔記クラス_初期化.h">
+      <Filter>①参照しない。変更しない。\マネージドライブラリ</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="HD.version.rc">
+      <Filter>①参照しない。変更しない。\リソース ファイル</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="超重要ブレイク場所.txt">
+      <Filter>①参照しない。変更しない。\ソースファイル\FF.不明。参考資料</Filter>
+    </Text>
+  </ItemGroup>
+</Project>

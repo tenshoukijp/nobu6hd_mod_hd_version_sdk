@@ -1,0 +1,6 @@
+LIBRARY "HD.version
+SECTIONS
+    .HDVERSIONSEG READ WRITE SHARED 
+EXPORTS
+	OnInitialize = OnInitialize @ 1
+	OnFinalize   = OnFinalize   @ 2
